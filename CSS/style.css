@@ -396,6 +396,33 @@ html {
   width: 100%;
   object-fit: cover;
 }
+.buy__more {
+  margin-bottom: 50px;
+  background-image: url(../Images/main/certificate/background.png);
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 332px; */
+}
+.buy__more__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 110px;
+  padding: 145px 10px;
+}
+.buy__more__title {
+  font-family: 'Yeseva One';
+  font-size: 40px;
+  color: white;
+}
+.buy__more__btn {
+  background-color: #ffbd59;
+  padding: 15px 45px;
+}
+
 
 /* media */
 
@@ -460,6 +487,9 @@ html {
   }
   .courses__item::before {
     bottom: 170px;
+  }
+  .buy__more__title {
+    font-size: 30px;
   }
 }
 
@@ -562,6 +592,11 @@ html {
     top: 180px;
     font-size: 8px;
   }
+  .buy__more__title {
+    font-family: 'Yeseva One';
+    font-size: 25px;
+    color: white;
+  }
 }
 
 @media (max-width: 768px) {
@@ -661,6 +696,10 @@ html {
   .courses {
     margin-bottom: 50px;
   }
+  .buy__more__content {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 @media (max-width: 720px) {
   .container {
@@ -681,6 +720,9 @@ html {
   }
   .about {
     margin-bottom: 50px;
+  }
+  .buy__more__content {
+    gap: 30px;
   }
 }
 @media (max-width: 660px) {
@@ -776,6 +818,9 @@ html {
     left: 200px;
     top: -20px;
   }
+  .buy__more__content {
+    gap: 30px;
+  }
 }
 @media (max-width: 480px) {
   .top {
@@ -832,6 +877,11 @@ html {
   } */
   .courses__content {
     flex-wrap: wrap;
+  }
+  .buy__more__title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
   }
 }
 
